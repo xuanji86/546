@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	background-color: #0907029a;
+	color: white;
+	text-transform: full-width;
+	overflow-x: hidden;
+}
+
+
+
+.search_page {
+	text-align: center;
+	font-size: 14pt;
+}
+
+h1.search_page {
+	text-decoration: underline;
+}
+
+form.search_page {
+	line-height: 2;
+}
+
+.Submit{
+	font-weight: bold;
+}
+

@@ -1,0 +1,35 @@
+
+
+<h1>Login</h1>
+
+<form action = "/login" method = "POST" id = "login-form">
+    <label for = "username" class = 'username_text'>user name</label>
+    <input type = "text" name = "username" id = "username" class = "username"><br>
+
+    <label for = "password" class = "password_text">password</label>
+    <input type = "password" name = "password" id = "password" class = "password"><br>
+
+    <input type = "Submit" value = "Submit" class = "Submit">
+</form>
+
+{{#if error_flag}}
+    <p class = "error_info">{{message}}</p>
+{{/if}}
+
+{{#if no_login_flag}}
+    <p class = "not_login_info">You are not log in</p>
+{{/if}}
+
+
+{{#if logout_flag}}
+    <p class = "logout_info">logged out!</p>
+{{/if}}
+
+    
+
+
+
+
+
+
+
